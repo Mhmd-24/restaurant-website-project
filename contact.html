@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="shortcut icon" href="Images/Site Icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header id="main-header"></header>
+
+    <main>
+
+        <div id="preloader">
+            <div class="loader"></div>
+        </div>
+
+        <div id="reservation-popup"></div>
+
+        <div id="contact-intro">
+            <h1>Contact Us</h1>
+            <hr>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia provident eligendi eos quasi error ratione, sint repellat magnam repudiandae praesentium, quis, doloribus ipsa excepturi quidem? Deserunt non ipsum facere aspernatur?</p>
+            <button id="res-btn">Reservation</button>
+        </div>
+
+        <div id="contact-info">
+            <div id="contact-card">
+                <img src="Images/Phone.png" alt="phone" loading="lazy">
+                <h1>Call Us</h1>
+                <p>+961 01 234 567</p>
+            </div>
+            <div id="contact-card">
+                <img src="Images/Mail.png" alt="phone" loading="lazy">
+                <h1>Mail Us</h1>
+                <p>mail@mail.com</p>
+            </div>
+            <div id="contact-card">
+                <img src="Images/Time.png" alt="phone" loading="lazy">
+                <h1>Working Hours</h1>
+                <p>10 a.m to 10 p.m</p>
+            </div>
+        </div>
+
+        <div id="googleMap">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3314.425247749219!2d35.5233883!3d33.8271424!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f19cb1de15c61%3A0x2328e0617975dd48!2sLebanese%20University%20-%20Hadat%20Campus!5e0!3m2!1sen!2slb!4v1739213178138!5m2!1sen!2slb" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div id="newsletter-section">
+            <div id="newsletter-content">
+                <h2>Subscribe to Our Newsletter</h2>
+                <p>Stay updated with our latest offers and events</p>
+                <form id="newsletter-form">
+                    <div class="newsletter-input-group">
+                        <input type="email" id="newsletter-email" name="email" class="input-field"
+                            placeholder="Enter your email address">
+                        <button type="submit" class="newsletter-submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer id="main-footer"></footer>
+
+    <script src="page-functionality.js"></script>
+</body>
+
+</html>

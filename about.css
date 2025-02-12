@@ -1,0 +1,303 @@
+#about-intro {
+    background-image: url("Images/Home Main Img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 125px 15%;
+    color: white;
+    text-align: center;
+}
+
+#about-intro h1 {
+    font-size: 42px;
+}
+
+#about-intro hr {
+    border: 1px solid gold;
+    width: 40%;
+}
+
+#about-intro p {
+    font-size: 18px;
+}
+
+#about-main {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 75px 25px;
+}
+
+#about-us {
+    padding-left: 10px;
+    padding-right: 50px;
+    width: 50%;
+}
+
+#about-us h1 {
+    font-size: 36px;
+}
+
+#about-us hr {
+    border: 1px solid gold;
+    width: 50%;
+    margin: 15px 0;
+}
+
+#about-us p {
+    font-size: 20px;
+}
+
+#about-main-img {
+    width: 50%;
+}
+
+#mission-vision {
+    display: flex;
+    flex-direction: row;
+    padding: 75px 25px;
+    background-color: black;
+    color: white;
+}
+
+#mission {
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+#mission:hover {
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px gold;
+}
+
+#vision {
+    text-align: center;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+#vision:hover {
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px gold;
+}
+
+.carousel {
+    width: 95%;
+    padding: 75px 25px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.carousel h1 {
+    color: black;
+    font-size: 36px;
+}
+
+.carousel hr {
+    border: 1px solid gold;
+    width: 50%;
+    margin: 15px 0;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-item {
+    width: calc(100% / 4);
+    flex: 0 0 calc(100% / 4);
+}
+
+#testimonials-container {
+    text-align: center;
+    padding: 75px 25px;
+}
+
+#testimonials-container h1 {
+    color: white;
+    font-size: 36px;
+}
+
+#testimonials-container hr {
+    border: 1px solid gold;
+    width: 40%;
+    margin: 15px auto;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 150px;
+}
+
+.testimonial {
+    text-align: center;
+    padding: 50px 75px;
+    background-color: black;
+    color: white;
+    border: 1px solid gold;
+    margin: 0px 25px;
+    box-shadow: 0px 0px 5px white;
+}
+
+.testimonial h1 {
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+    #about-intro {
+        background-image: url("Images/Home Main Img.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 125px 35px;
+        color: white;
+        text-align: center;
+    }
+
+    #about-intro h1 {
+        font-size: 42px;
+    }
+
+    #about-intro hr {
+        border: 1px solid gold;
+        width: 40%;
+    }
+
+    #about-intro p {
+        font-size: 18px;
+    }
+
+    #about-main {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        padding: 75px 25px;
+    }
+
+    #about-us {
+        padding-left: 10px;
+        padding-right: 25px;
+        width: 100%;
+    }
+
+    #about-us h1 {
+        font-size: 32px;
+    }
+
+    #about-us hr {
+        border: 1px solid gold;
+        width: 50%;
+        margin: 15px 0;
+    }
+
+    #about-us p {
+        font-size: 20px;
+    }
+
+    #about-main-img {
+        width: 50%;
+        display: none;
+    }
+
+    #mission-vision {
+        display: flex;
+        flex-direction: column;
+        padding: 75px 50px;
+        gap: 15px;
+        background-color: black;
+        color: white;
+    }
+
+    #mission {
+        text-align: center;
+        padding: 25px;
+        border-radius: 15px;
+    }
+
+    #mission:hover {
+        border-radius: 15px;
+        box-shadow: 0px 0px 5px gold;
+    }
+
+    #vision {
+        text-align: center;
+        padding: 25px;
+        border-radius: 15px;
+    }
+
+    #vision:hover {
+        border-radius: 15px;
+        box-shadow: 0px 0px 5px gold;
+    }
+
+    .carousel {
+        width: 95%;
+        padding: 75px 25px;
+        overflow: hidden;
+        background-color: white;
+    }
+
+    .carousel h1 {
+        color: black;
+        font-size: 28px;
+    }
+
+    .carousel hr {
+        border: 1px solid gold;
+        width: 50%;
+        margin: 15px 0;
+    }
+
+    .carousel-container {
+        display: flex;
+        transition: transform 1s ease-in-out;
+    }
+
+    .carousel-item {
+        width: calc(100% / 4);
+        flex: 0 0 calc(100% / 4);
+        height: 150px;
+    }
+
+    #testimonials-container {
+        text-align: center;
+        padding: 75px 25px;
+    }
+
+    #testimonials-container h1 {
+        color: white;
+        font-size: 28px;
+    }
+
+    #testimonials-container hr {
+        border: 1px solid gold;
+        width: 50%;
+        margin: 15px auto;
+    }
+
+    .testimonials {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 50px 50px;
+        gap: 15px;
+    }
+
+    .testimonial {
+        text-align: center;
+        padding: 50px 50px;
+        background-color: black;
+        color: white;
+        border: 1px solid gold;
+        margin: 0px 25px;
+        box-shadow: 0px 0px 5px white;
+    }
+
+    .testimonial h1 {
+        font-size: 24px;
+    }
+}
