@@ -381,6 +381,10 @@ h1 {
         transform: translateY(0);
     }
 
+    #nav-img{
+        display: none;
+    }
+
     #nav-menu {
         display: flex;
         list-style: none;
