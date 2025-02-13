@@ -94,6 +94,11 @@ function setupScrollToTop() {
     });
 }
 
+function toggleMenu() {
+    document.getElementById("nav-menu").classList.toggle("active");
+    document.querySelector(".res-btn-nav").classList.toggle("active");
+}
+
 // Modified initialize function to include preloader
 async function initialize() {
     showPreloader();  // Show preloader before loading components
