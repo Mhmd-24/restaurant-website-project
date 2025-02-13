@@ -1,6 +1,8 @@
 let index = 0;
 let intervalId;
+let carouselIndex = 0; // New index for carousel
 
+// Slider functions
 function createBullets() {
     const container = document.querySelector(".slider-bullets");
     const slides = document.querySelectorAll(".slider-item");
@@ -44,9 +46,29 @@ function resetInterval() {
     intervalId = setInterval(moveSlide, 5000);
 }
 
-// Initialize slider when the page loads
+// Carousel function
+function moveCarousel() {
+    let items = document.querySelectorAll(".carousel-item");
+    let container = document.querySelector(".carousel-container");
+    let totalItems = items.length;
+    let visibleImages = 4;
+
+    carouselIndex++;
+
+    if (carouselIndex > totalItems - visibleImages) {
+        carouselIndex = 0;
+    }
+
+    container.style.transform = `translateX(-${carouselIndex * (100 / visibleImages)}%)`;
+}
+
+// Initialize slider and carousel when the page loads
 document.addEventListener('DOMContentLoaded', () => {
+    // Initialize slider
     createBullets();
     updateSlider();
     intervalId = setInterval(moveSlide, 5000);
+
+    // Initialize carousel
+    setInterval(moveCarousel, 5000);
 });
